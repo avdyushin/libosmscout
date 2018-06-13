@@ -541,7 +541,6 @@
 		E5A8262416F2706600EE4C78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -560,23 +559,20 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = ../../../libosmscout/include;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../../../libosmscout/include";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		E5A8262516F2706600EE4C78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -588,15 +584,13 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = ../../../libosmscout/include;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../../../libosmscout/include";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -607,9 +601,9 @@
 				EXECUTABLE_PREFIX = "";
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
-					"../../../libosmscout-import/include",
-					../../../libosmscout/include,
-					"../../../../../protobuf-2.4.1/src/",
+					"${SRCROOT}/../../../libosmscout-import/include",
+					"${SRCROOT}/../../../libosmscout/include",
+					"${SRCROOT}/../../../../../protobuf-2.4.1/src/",
 					/usr/include/libxml2/,
 				);
 				LIBRARY_SEARCH_PATHS = (
@@ -628,9 +622,9 @@
 				EXECUTABLE_PREFIX = "";
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
-					"../../../libosmscout-import/include",
-					../../../libosmscout/include,
-					"../../../../../protobuf-2.4.1/src/",
+					"${SRCROOT}/../../../libosmscout-import/include",
+					"${SRCROOT}/../../../libosmscout/include",
+					"${SRCROOT}/../../../../../protobuf-2.4.1/src/",
 					/usr/include/libxml2/,
 				);
 				LIBRARY_SEARCH_PATHS = (

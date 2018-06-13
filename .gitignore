@@ -18,3 +18,5 @@
 # meson
 /debug/
 /release/
+
+.DS_Store
